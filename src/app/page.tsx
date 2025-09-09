@@ -159,105 +159,120 @@ const abstracts: Abstract[] = [
   },
   {
     id: 12,
-    title: "Exploring Enablers for Deploying an Integrated Rebar Inventory Tool to Enhance Contractor-Client-Supply Chain Relationships",
+    title:
+      "Exploring Enablers for Deploying an Integrated Rebar Inventory Tool to Enhance Contractor-Client-Supply Chain Relationships",
     author: "Abdullah Bhalli",
     year: 2025,
-    excerpt: "This study addresses the enduring challenge of implementing an integrated material management system for rebar procurement, leveraging 3D design information to enhance inventory efficiency. It explores how stakeholder perspectives can reveal opportunities such as reducing procurement times and repurposing existing stock.",
+    excerpt:
+      "This study addresses the enduring challenge of implementing an integrated material management system for rebar procurement, leveraging 3D design information to enhance inventory efficiency. It explores how stakeholder perspectives can reveal opportunities such as reducing procurement times and repurposing existing stock.",
     pdfUrl: "/pdfs/abdullah-bhalli-2023.pdf",
     tags: ["supply chain", "digital tools", "inventory management", "rebar"],
-    profile: "a-bhalli.jpeg"
+    profile: "a-bhalli.jpeg",
   },
   {
     id: 13,
     title: "Sharing Insights: Comparing the Design Process in Shipbuilding and Construction",
     author: "Alexandra Walker",
     year: 2025,
-    excerpt: "This research investigates the potential for cross-industry learning between shipbuilding and construction. Despite similar challenges, shipbuilding has embraced integrated design processes and single 3D CAD models more effectively, highlighting both opportunities and cultural barriers in construction.",
+    excerpt:
+      "This research investigates the potential for cross-industry learning between shipbuilding and construction. Despite similar challenges, shipbuilding has embraced integrated design processes and single 3D CAD models more effectively, highlighting both opportunities and cultural barriers in construction.",
     pdfUrl: "/pdfs/alexandra-walker-2023.pdf",
     tags: ["design", "BIM", "cross-industry learning", "shipbuilding"],
-    profile: "a-walker.jpeg"
+    profile: "a-walker.jpeg",
   },
   {
     id: 14,
     title: "Perceptions of Psychological Safety in Construction",
     author: "Arya Ambujakshan",
     year: 2025,
-    excerpt: "This qualitative study examines psychological safety within multinational construction hubs, revealing gaps between policy and practice. Findings stress leadership-driven interventions and context-sensitive measures to foster open communication and stronger safety cultures on sites.",
+    excerpt:
+      "This qualitative study examines psychological safety within multinational construction hubs, revealing gaps between policy and practice. Findings stress leadership-driven interventions and context-sensitive measures to foster open communication and stronger safety cultures on sites.",
     pdfUrl: "/pdfs/arya-ambujakshan-2023.pdf",
     tags: ["psychological safety", "workforce", "leadership", "wellbeing"],
-    profile: "a-ambujakshan.jpeg"
+    profile: "a-ambujakshan.jpeg",
   },
   {
     id: 15,
-    title: "Enhancing Productivity in Reinforced Concrete Frame Buildings: A Study of Modern Construction Methods and Off-Site Manufacturing",
+    title:
+      "Enhancing Productivity in Reinforced Concrete Frame Buildings: A Study of Modern Construction Methods and Off-Site Manufacturing",
     author: "Ausra Vadapolaite",
     year: 2025,
-    excerpt: "This dissertation shows how off-site manufacturing can significantly enhance productivity in reinforced concrete construction, particularly where designs are standardised. Complexity, lack of standardisation, and cultural resistance remain key barriers to maximising these benefits.",
+    excerpt:
+      "This dissertation shows how off-site manufacturing can significantly enhance productivity in reinforced concrete construction, particularly where designs are standardised. Complexity, lack of standardisation, and cultural resistance remain key barriers to maximising these benefits.",
     pdfUrl: "/pdfs/ausra-vadapolaite-2023.pdf",
     tags: ["productivity", "modern methods", "off-site manufacturing", "reinforced concrete"],
-    profile: "a-vadapolaite.jpeg"
+    profile: "a-vadapolaite.jpeg",
   },
   {
     id: 16,
     title: "Construction Workforce Perceptions of Rebar Placement Automation",
     author: "Bart Drazyk",
     year: 2025,
-    excerpt: "This research explores workforce perceptions of automation in rebar placement, balancing concerns about job displacement and safety with openness to training and innovation. Success depends on inclusive implementation and structured workforce engagement.",
+    excerpt:
+      "This research explores workforce perceptions of automation in rebar placement, balancing concerns about job displacement and safety with openness to training and innovation. Success depends on inclusive implementation and structured workforce engagement.",
     pdfUrl: "/pdfs/bart-drazyk-2023.pdf",
     tags: ["automation", "rebar", "workforce", "technology adoption"],
-    profile: "b-drazyk.jpeg"
+    profile: "b-drazyk.jpeg",
   },
   {
     id: 17,
     title: "Building Better Meeting",
     author: "Callum Alderton",
     year: 2025,
-    excerpt: "This study analyses meeting practices in construction organisations, revealing inconsistent application of good practices and prevalent counterproductive behaviours. It recommends systemic interventions such as guidelines and facilitation training to improve effectiveness.",
+    excerpt:
+      "This study analyses meeting practices in construction organisations, revealing inconsistent application of good practices and prevalent counterproductive behaviours. It recommends systemic interventions such as guidelines and facilitation training to improve effectiveness.",
     pdfUrl: "/pdfs/callum-alderton-2023.pdf",
     tags: ["meetings", "productivity", "project management", "teamwork"],
-    profile: "c-alderton.jpeg"
+    profile: "c-alderton.jpeg",
   },
   {
     id: 18,
-    title: "Advancing Offsite Manufacturing (Industry 4.0 and Smart Factories in the UK and Ireland)",
+    title:
+      "Advancing Offsite Manufacturing (Industry 4.0 and Smart Factories in the UK and Ireland)",
     author: "James Turner",
     year: 2025,
-    excerpt: "This dissertation examines adoption of Industry 4.0 technologies in offsite manufacturing, showing uneven uptake across tools like cloud computing, BIM, AI, and IoT. Organisational barriers, rather than technical, are slowing transformation.",
+    excerpt:
+      "This dissertation examines adoption of Industry 4.0 technologies in offsite manufacturing, showing uneven uptake across tools like cloud computing, BIM, AI, and IoT. Organisational barriers, rather than technical, are slowing transformation.",
     pdfUrl: "/pdfs/james-turner-2023.pdf",
     tags: ["Industry 4.0", "off-site manufacturing", "digital transformation", "smart factories"],
-    profile: "j-turner.jpeg"
+    profile: "j-turner.jpeg",
   },
   {
     id: 19,
-    title: "A Framework for Utilising Activity-Level Site Data during the Construction Phase of Projects",
+    title:
+      "A Framework for Utilising Activity-Level Site Data during the Construction Phase of Projects",
     author: "Joe Willock",
     year: 2025,
-    excerpt: "This study develops a DIKW-based framework for capturing and using activity-level site data to improve productivity. Findings highlight barriers such as limited engagement from site engineers and the need for feedback loops and data automation.",
+    excerpt:
+      "This study develops a DIKW-based framework for capturing and using activity-level site data to improve productivity. Findings highlight barriers such as limited engagement from site engineers and the need for feedback loops and data automation.",
     pdfUrl: "/pdfs/joe-willock-2023.pdf",
     tags: ["site data", "DIKW", "productivity", "digital tools"],
-    profile: "j-willock.jpeg"
+    profile: "j-willock.jpeg",
   },
   {
     id: 20,
-    title: "Assessing the Potential of CFA Piling Rig Telemetry Data for Stratigraphic Profiling and Optimised Pile Installation",
+    title:
+      "Assessing the Potential of CFA Piling Rig Telemetry Data for Stratigraphic Profiling and Optimised Pile Installation",
     author: "John Hopkins",
     year: 2025,
-    excerpt: "This dissertation applies machine learning to CFA piling telemetry data to identify rock boundaries in real time. Findings suggest that supervised models can enhance safety and reduce material use, while unsupervised methods unlock historic datasets.",
+    excerpt:
+      "This dissertation applies machine learning to CFA piling telemetry data to identify rock boundaries in real time. Findings suggest that supervised models can enhance safety and reduce material use, while unsupervised methods unlock historic datasets.",
     pdfUrl: "/pdfs/john-hopkins-2023.pdf",
     tags: ["machine learning", "telemetry", "geotechnics", "piling"],
-    profile: "j-hopkins.jpeg"
+    profile: "j-hopkins.jpeg",
   },
   {
     id: 21,
-    title: "Early Integration of Contractor Expertise in Complex Construction Projects: Client and Contractor Perspectives",
+    title:
+      "Early Integration of Contractor Expertise in Complex Construction Projects: Client and Contractor Perspectives",
     author: "Sarah Levett",
     year: 2025,
-    excerpt: "This qualitative research explores how perceptions, motivations, and project complexities influence early contractor involvement. It identifies enablers such as shared incentives, cultural alignment, and trusted relationships, emphasising systems-thinking approaches.",
+    excerpt:
+      "This qualitative research explores how perceptions, motivations, and project complexities influence early contractor involvement. It identifies enablers such as shared incentives, cultural alignment, and trusted relationships, emphasising systems-thinking approaches.",
     pdfUrl: "/pdfs/sarah-levett-2023.pdf",
     tags: ["early contractor involvement", "collaboration", "complex projects", "supply chain"],
-    profile: "s-levett.jpeg"
-  }
-]
+    profile: "s-levett.jpeg",
+  },
 ];
 
 const availableTags = [
