@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Search, Filter, X, Calendar, User, Tag, Download, ExternalLink } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -297,6 +297,22 @@ export default function CambridgeAbstracts() {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedAbstract, setSelectedAbstract] = useState<Abstract | null>(null);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Determine if viewport is mobile (Tailwind md breakpoint: <768px)
+  useEffect(() => {
+    const check = () => setIsMobile(window.matchMedia("(max-width: 767px)").matches);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
+  // Ensure modal is closed if switching to mobile
+  useEffect(() => {
+    if (isMobile && selectedAbstract) {
+      setSelectedAbstract(null);
+    }
+  }, [isMobile, selectedAbstract]);
 
   const filteredAbstracts = useMemo(() => {
     const filtered = abstracts.filter((abstract) => {
@@ -476,7 +492,13 @@ export default function CambridgeAbstracts() {
                 <Card
                   key={abstract.id}
                   className="py-0 gap-0 group cursor-pointer bg-white border-gray-200 hover:border-[#292D35] hover:shadow-xl hover:shadow-[#292D35]/10 transition-all duration-500 hover:scale-105 rounded-md overflow-hidden h-[490px] flex flex-col"
-                  onClick={() => setSelectedAbstract(abstract)}
+                  onClick={() => {
+                    if (isMobile) {
+                      window.open(abstract.pdfUrl, "_blank");
+                    } else {
+                      setSelectedAbstract(abstract);
+                    }
+                  }}
                 >
                   {/* Header Section with Dark Background */}
                   <div className="bg-[#292D35] p-8">
