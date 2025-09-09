@@ -299,11 +299,18 @@ export default function CambridgeAbstracts() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   const filteredAbstracts = useMemo(() => {
-    return abstracts.filter((abstract) => {
+    const filtered = abstracts.filter((abstract) => {
       const matchesSearch = abstract.title.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesTags =
         selectedTags.length === 0 || selectedTags.some((tag) => abstract.tags.includes(tag));
       return matchesSearch && matchesTags;
+    });
+
+    // Sort by most recent year first, then alphabetically by title (case-insensitive)
+    return [...filtered].sort((a, b) => {
+      const yearDiff = b.year - a.year;
+      if (yearDiff !== 0) return yearDiff;
+      return a.title.localeCompare(b.title, undefined, { sensitivity: "base" });
     });
   }, [searchTerm, selectedTags]);
 
