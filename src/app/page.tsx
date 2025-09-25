@@ -352,7 +352,7 @@ export default function CambridgeAbstracts() {
               <div className="flex items-center gap-3">
                 <div className="w-20 h-16 flex items-center justify-center">
                   <img
-                    src="/images/lor-logo.svg"
+                    src="/images/lor-logo2.svg"
                     alt="Laing O'Rourke"
                     className="h-[80px] w-[200px]"
                   />
